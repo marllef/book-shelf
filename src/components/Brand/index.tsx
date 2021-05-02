@@ -6,7 +6,7 @@ export default function Brand() {
       <span className='text-xl'>
         <Icon />
       </span>
-      <span className="ml-1">BookMark</span>
+      <span className="ml-1">BookShelf</span>
     </div>
   );
 }
