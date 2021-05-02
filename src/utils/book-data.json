@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "title": "Livro 1",
+      "author": "AutorDaObra",
+      "link": "/#",
+      "font": "Domínio Público"
+    },
+    {
+      "title": "Livro 2",
+      "author": "AutorDaObra",
+      "link": "/#",
+      "font": "Domínio Público"
+    },
+    {
+      "title": "Livro 3",
+      "author": "AutorDaObra",
+      "link": "/#",
+      "font": "Domínio Público"
+    },
+    {
+      "title": "Livro 4",
+      "author": "AutorDaObra",
+      "link": "/#",
+      "font": "Domínio Público"
+    }
+  ]
+}
