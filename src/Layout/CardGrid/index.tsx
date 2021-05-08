@@ -7,13 +7,13 @@ export default function CardGrid({ data }: CardGridTypes) {
       id="Card-Grid"
       className="flex flex-row p-12 flex-wrap justify-center items-baseline"
     >
-      {data.map((value, key) => (
+      {data.map((book, key) => (
         <Card
           key={key}
-          title={value.title}
-          author={value.author}
-          font={value.font}
-          link={value.link}
+          title={book.title}
+          author={book.author.replace(/\s/g, "")}
+          font={book.font}
+          link={book.link}
         />
       ))}
     </div>

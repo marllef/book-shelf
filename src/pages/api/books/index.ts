@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { fetchData } from "~/services/MongoServices";
+import { fetchDataFromDatabase } from "~/services/MongoServices";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   try {
@@ -7,7 +7,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       case "GET":
       case "POST":
         res.status(200).json({
-          data: await fetchData(),
+          data: await fetchDataFromDatabase(),
         });
         break;
       default:
